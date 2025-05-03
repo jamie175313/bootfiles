@@ -1,0 +1,5 @@
+#!ipxe
+
+kernel https://21ea-2607-fea8-8962-5900-4036-25c-cae2-7886.ngrok-free.app/vmlinuz initrd=initrd.img root=/dev/ram0 ro quiet
+initrd https://21ea-2607-fea8-8962-5900-4036-25c-cae2-7886.ngrok-free.app/initrd.img
+boot
